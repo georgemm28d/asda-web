@@ -1,4 +1,5 @@
+# Demo de portafolio (marca ficticia, datos de demostración).
+# La página declara <meta name="robots" content="noindex">, así que los
+# buscadores pueden rastrearla pero no incluirla en resultados.
 User-agent: *
 Allow: /
-
-Sitemap: https://georgemm28d.github.io/asda-web/sitemap.xml

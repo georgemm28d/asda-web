@@ -2,7 +2,7 @@
 
 Landing page de una sola página para una empresa venezolana de agregados de construcción (arena lavada, piedra picada y arrocillo). Identidad amarilla/blanca/negra, estética editorial industrial y conversión directa a WhatsApp.
 
-**Marca ficticia:** este proyecto es un caso de estudio de diseño y desarrollo front-end. Los datos de contacto, el RIF y los testimonios son de demostración.
+**Marca ficticia:** este proyecto es un caso de estudio de diseño y desarrollo front-end. Los datos de contacto, el RIF y los testimonios son de demostración. El sitio declara `noindex`: no aparece en buscadores y no compite con el dominio del cliente real.
 
 [**Ver el sitio en vivo →**](https://georgemm28d.github.io/asda-web/)
 
@@ -64,7 +64,7 @@ Sin bundler, sin `node_modules`, sin JS de terceros. El sitio completo pesa meno
 - `title` y `description` orientados a intención de búsqueda real ("arena lavada, piedra picada y arrocillo en Venezuela").
 - Canonical, Open Graph y Twitter Card completos, con imagen 1200×630 local.
 - JSON-LD con `@graph`: `Organization`, `LocalBusiness`, `WebSite` y `FAQPage` (7 preguntas, incluidas respuestas citables sobre qué es el arrocillo y cómo se calcula el volumen).
-- `robots.txt` y `sitemap.xml`.
+- `noindex` en la demo y `robots.txt` sin sitemap: el sitio queda fuera de los buscadores para no competir con el dominio real del cliente.
 
 **Rendimiento.**
 - Seis imágenes propias en WebP (~2.1 MB en total) con `srcset` de 1200/2000 px en el hero y `loading="lazy"` en todo lo que está bajo el pliegue.
@@ -90,7 +90,6 @@ asda-web/
 │   └── img/            # imágenes optimizadas en WebP + og:image
 ├── docs/               # capturas y social preview
 ├── robots.txt
-├── sitemap.xml
 └── README.md
 ```
 
