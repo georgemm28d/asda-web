@@ -1,12 +1,12 @@
 # ASDA — Agregados al alcance de todos
 
-![Portada del proyecto ASDA](assets/img/cover.svg)
-
 Landing page de una sola página para una empresa venezolana de agregados de construcción (arena lavada, piedra picada y arrocillo). Identidad amarilla/blanca/negra, estética editorial industrial y conversión directa a WhatsApp.
 
 **Marca ficticia:** este proyecto es un caso de estudio de diseño y desarrollo front-end. Los datos de contacto, el RIF y los testimonios son de demostración.
 
 [**Ver el sitio en vivo →**](https://georgemm28d.github.io/asda-web/)
+
+![Vista de escritorio del sitio ASDA](docs/preview-desktop.jpg)
 
 ---
 
@@ -71,6 +71,12 @@ Sin bundler, sin `node_modules`, sin JS de terceros. El sitio completo pesa meno
 - Sin JS de terceros ni fuentes de iconos: los iconos son SVG inline.
 - CSS y JS en archivos separados para aprovechar la caché del navegador.
 
+**Responsive.** La retícula pasa de 12 columnas a una sola pila en móvil, el menú se convierte en panel a pantalla completa con foco atrapado y las cifras del hero se reorganizan en dos filas.
+
+<p align="center">
+  <img src="docs/preview-mobile.jpg" alt="Vista móvil del sitio ASDA" width="260">
+</p>
+
 ---
 
 ## Estructura
@@ -82,6 +88,7 @@ asda-web/
 ├── app.js              # interacciones (~300 líneas)
 ├── assets/
 │   └── img/            # imágenes optimizadas en WebP + og:image
+├── docs/               # capturas y social preview
 ├── robots.txt
 ├── sitemap.xml
 └── README.md
