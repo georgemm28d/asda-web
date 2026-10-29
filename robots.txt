@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://georgemm28d.github.io/asda-web/sitemap.xml
