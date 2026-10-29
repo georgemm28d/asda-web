@@ -1,5 +1,7 @@
 # ASDA — Agregados al alcance de todos
 
+![Portada del proyecto ASDA](assets/img/cover.svg)
+
 Landing page de una sola página para una empresa venezolana de agregados de construcción (arena lavada, piedra picada y arrocillo). Identidad amarilla/blanca/negra, estética editorial industrial y conversión directa a WhatsApp.
 
 **Marca ficticia:** este proyecto es un caso de estudio de diseño y desarrollo front-end. Los datos de contacto, el RIF y los testimonios son de demostración.
